@@ -1,8 +1,7 @@
 {
-  "name": "backend",
+  "name": "vision-2020",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "node app.js"
   },
