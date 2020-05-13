@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+html{background: url(assets/road.jpg) no-repeat center center fixed;}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+.main-centered-content {
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+  padding: 40px;
+}
+
+.auth-centered-content {
+  margin: auto;
+  justify-content: center;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 15%;
+  /* margin: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; */
+}
+
+/* .grey-box {
+  margin: 140px;
+  padding: 35px;
+  background: purple;
+  border-radius: 5px;
+  width: 350px;
+  max-width: 350px;
+} */

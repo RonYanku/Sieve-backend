@@ -1,0 +1,32 @@
+
+
+.task-manager-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 680px;
+}
+
+.sidebar {
+  margin: -1.1em;
+  margin-left: -1.15em;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  background: rgba(219, 225, 231, 0.822);
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.task-list-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 42px;
+
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
