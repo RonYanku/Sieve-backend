@@ -13,7 +13,7 @@ const router = new express.Router()
  * Purpose: Sign up
  */
 
-router.post("users/signup", (req, res, next) => {
+router.post("/users/signup", (req, res, next) => {
     bcrypt.hash(req.body.password, 10).then(hash => {
       const user = new User({
         email: req.body.email,
@@ -36,7 +36,7 @@ router.post("users/signup", (req, res, next) => {
   });
 
 
-router.post("users/login", (req, res, next) => {
+router.post("/users/login", (req, res, next) => {
     let fetchedUser;
     User.findOne({ email: req.body.email })
       .then(user => {
